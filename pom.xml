@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>bachelorarbeit</groupId>
-    <artifactId>bachelorarbeit</artifactId>
+    <groupId>bathesis</groupId>
+    <artifactId>bathesis</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>bachelorarbeit</name>
+    <name>bathesis</name>
     <url>https://github.com/5yntek/bathesis</url>
 
     <properties>
@@ -38,7 +38,7 @@
     </dependencies>
 
     <build>
-        <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+        <pluginManagement>
             <plugins>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
