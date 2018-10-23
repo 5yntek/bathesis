@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: bachelorarbeit.ResetScriptTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in bachelorarbeit.ResetScriptTest
+test  Time elapsed: 0.015 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: -- Dump completed on 2017-05-02 16:56:42 ==> expected: <true> but was: <false>
+	at bachelorarbeit.ResetScriptTest.runTest(ResetScriptTest.java:74)
+	at bachelorarbeit.ResetScriptTest.test(ResetScriptTest.java:96)
+

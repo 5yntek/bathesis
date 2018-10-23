@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="bachelorarbeit.ResetScriptTest" time="0.023" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/xyntek/IdeaProjects/bachelorarbeit/target/test-classes:/home/xyntek/IdeaProjects/bachelorarbeit/target/classes:/home/xyntek/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.1/junit-jupiter-api-5.3.1.jar:/home/xyntek/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/xyntek/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/xyntek/.m2/repository/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar:/home/xyntek/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.1/junit-jupiter-engine-5.3.1.jar:/home/xyntek/.m2/repository/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/home/xyntek/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xyntek/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xyntek/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/xyntek/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/xyntek/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/xyntek/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/xyntek/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/xyntek/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/xyntek/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/xyntek/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/xyntek/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/xyntek/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/xyntek/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/home/xyntek/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/xyntek/Java/jdk-10.0.2/lib"/>
+    <property name="sun.java.command" value="/home/xyntek/IdeaProjects/bachelorarbeit/target/surefire/surefirebooter4237215259791730191.jar /home/xyntek/IdeaProjects/bachelorarbeit/target/surefire 2018-10-22T13-26-48_249-jvmRun1 surefire9063176576959786910tmp surefire_013146729150288968884tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/xyntek/IdeaProjects/bachelorarbeit/target/test-classes:/home/xyntek/IdeaProjects/bachelorarbeit/target/classes:/home/xyntek/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.1/junit-jupiter-api-5.3.1.jar:/home/xyntek/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/xyntek/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/xyntek/.m2/repository/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar:/home/xyntek/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.1/junit-jupiter-engine-5.3.1.jar:/home/xyntek/.m2/repository/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/home/xyntek/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/home/xyntek/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xyntek/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xyntek/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/xyntek/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/xyntek/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/xyntek/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/xyntek/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/xyntek/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/xyntek/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/xyntek/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/xyntek/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/xyntek/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/xyntek/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/home/xyntek/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:"/>
+    <property name="test" value="ResetScriptTest"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/xyntek"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.home" value="/home/xyntek/Java/jdk-10.0.2"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/xyntek/IdeaProjects/bachelorarbeit"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/xyntek/IdeaProjects/bachelorarbeit/target/surefire/surefirebooter4237215259791730191.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="user.name" value="xyntek"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-36-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="localRepository" value="/home/xyntek/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2018.2.4"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="user.dir" value="/home/xyntek/IdeaProjects/bachelorarbeit"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="54.0"/>
+  </properties>
+  <testcase name="testFixed" classname="bachelorarbeit.ResetScriptTest" time="0.003"/>
+  <testcase name="test" classname="bachelorarbeit.ResetScriptTest" time="0.015">
+    <failure message="-- Dump completed on 2017-05-02 16:56:42 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: -- Dump completed on 2017-05-02 16:56:42 ==> expected: <true> but was: <false>
+	at bachelorarbeit.ResetScriptTest.runTest(ResetScriptTest.java:74)
+	at bachelorarbeit.ResetScriptTest.test(ResetScriptTest.java:96)
+]]></failure>
+    <system-err><![CDATA[DROP DATABASE `airport`;
+CREATE DATABASE `airport`;
+use `airport`;
+CREATE TABLE `airport`.`country` (
+  `CountryISO3166_2LetterCode` char(2) NOT NULL,
+  `CountryName` varchar(100) NOT NULL,
+  PRIMARY KEY (`CountryISO3166_2LetterCode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+INSERT INTO `airport`.`country` VALUES ('CA','Canada'),('DE','Germany'),('FR','France'),('GB','United Kingdom'),('GR','Greece'),('IT','Italy'),('NO','Norway');
+DROP DATABASE `airport`;
+CREATE DATABASE `airport`;
+use `airport`;
+CREATE TABLE `airport`.`country` (
+  `CountryISO3166_2LetterCode` char(2) NOT NULL,
+  `CountryName` varchar(100) NOT NULL,
+  PRIMARY KEY (`CountryISO3166_2LetterCode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+INSERT INTO `airport`.`country` VALUES ('CA','Canada'),('DE','Germany'),('FR','France'),('GB','United Kingdom'),('GR','Greece'),('IT','Italy'),('NO','Norway');
+-- Dump completed on 2017-05-02 16:56:42
+]]></system-err>
+  </testcase>
+</testsuite>
