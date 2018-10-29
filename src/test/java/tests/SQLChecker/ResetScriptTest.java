@@ -1,4 +1,4 @@
-package bachelorarbeit;
+package tests.SQLChecker;
 
 import org.junit.jupiter.api.Test;
 
